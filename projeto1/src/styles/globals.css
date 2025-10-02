@@ -1,0 +1,19 @@
+@import "tailwindcss";
+@tailwind utilities;
+
+:root {
+  
+}
+
+.links{
+}
+.links a{
+    margin: 10px;
+    border-radius: 20px;
+    transition: 0.8s;
+    padding: 10px;
+    background-color: var(--color-gray-200);
+}
+.links a:hover{
+    background-color: var(--color-orange-600);
+}
